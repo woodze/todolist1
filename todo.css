@@ -1,0 +1,163 @@
+h1
+{
+	text-align: center;
+	font-size: 75px;
+    padding-top:10px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #B8A23E;
+    margin-top: 0;
+}
+body{
+   background: green;
+}
+
+centeredmenu {
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+#centeredmenu ul {
+   clear: left;
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   left: 50%;
+   text-align: center;
+   
+    
+  
+}
+#centeredmenu ul li {
+   display: block;
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   right: 50%;
+}
+#centeredmenu ul li a {
+   display: block;
+   margin: 0 0 0 1px;
+   padding: 3px 10px;
+   color: #B8A23E;
+   text-decoration: none;
+   line-height: 1.3em;
+   font-size: 45px;
+}
+#centeredmenu ul li a:hover {
+   background: #19550D;
+   color: #B8A23E;
+
+}
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+   color: #19550D;
+   background:#19550D ;
+   font-weight: bold;
+}
+body 
+{
+   margin:10px;
+
+}
+.wrapper{
+   position:relative;
+   top: -10px;
+    font-size: 40px;
+}
+@media (max-width:500px){
+#centeredmenu li
+{
+    list-style-type: none;
+    width: 125%;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto; 
+}
+.wrapper
+    {
+   position:relative;
+   top: -10px;
+    font-size: 20px;
+}
+header{
+   height: 250px;
+}
+    input{
+    display: block;
+}
+
+}
+input{
+    display: block;
+}
+#username
+{
+    font-size: 35px;
+    margin-top: 200px;
+}
+#school-todo
+{
+     font-size: 20px;
+}
+#chore-todo
+{
+     font-size: 20px;
+}
+#grocery-todo
+{
+     font-size: 20px;
+}
+#login
+{
+    font-size: 15px;
+}
+#school-add
+{
+    font-size: 15px;
+}
+#chore-add
+{
+    font-size: 15px;
+}
+#grocery-add
+{
+    font-size: 15px;
+}
+}
+#username
+{
+    font-size: 35px;
+    margin-top: 100px;
+}
+#school-todo
+{
+     font-size: 35px;
+}
+#chore-todo
+{
+     font-size: 35px;
+}
+#grocery-todo
+{
+     font-size: 35px;
+}
+#login
+{
+    font-size: 30px;
+}
+#school-add
+{
+    font-size: 30px;
+}
+#chore-add
+{
+    font-size: 30px;
+}
+#grocery-add
+{
+    font-size: 30px;
+}
